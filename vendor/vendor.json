@@ -1,0 +1,87 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "appengine/cloudsql",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "T6YlZ5PORNIwutJP7Vfe29XKQno=",
+			"path": "github.com/astaxie/beego",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "IVeo6eZgrofayfWOKKhWmgkbq1g=",
+			"path": "github.com/astaxie/beego/config",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "w7GeJDw3/bzEa3mxwr8ydUF1Qh4=",
+			"path": "github.com/astaxie/beego/context",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "+5TpkCiIAd6g6ecRkPbGS/Ivbl8=",
+			"path": "github.com/astaxie/beego/context/param",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "MIrRu+SHql8qwYJTCCyqD7XwEas=",
+			"path": "github.com/astaxie/beego/grace",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "gJKXPto7VwS2flQuSx4wmS/8FQw=",
+			"path": "github.com/astaxie/beego/logs",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "3PZBFDi/rqog+VndI2ANCeGQIrw=",
+			"path": "github.com/astaxie/beego/orm",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "WGnti4OYSissIV67mLh9a14lwxk=",
+			"path": "github.com/astaxie/beego/session",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "B6+D5EMUhOmo6I5wIVoTwNfcsV8=",
+			"path": "github.com/astaxie/beego/toolbox",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "wyz5HgdoDurteHhp63m+CwKx7zg=",
+			"path": "github.com/astaxie/beego/utils",
+			"revision": "d96289a81bf67728cff7a19b067aaecc65a62ec6",
+			"revisionTime": "2017-07-18T16:56:48Z"
+		},
+		{
+			"checksumSHA1": "ByKUif8nlp3zcdOWB3sHa1RkJBI=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "3955978caca48c1658a4bb7a9c6a0f084e326af3",
+			"revisionTime": "2017-07-15T19:24:08Z"
+		},
+		{
+			"checksumSHA1": "jQmm7iULG6IrxwTMjm/THYrWh70=",
+			"path": "github.com/lisijie/cron",
+			"revision": "1c5ac61b9f223a25acfc6754287389b821f64656",
+			"revisionTime": "2015-12-25T08:11:49Z"
+		},
+		{
+			"path": "github.com/lisijiecron",
+			"revision": ""
+		}
+	],
+	"rootPath": "webcron"
+}

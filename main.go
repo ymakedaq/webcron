@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/astaxie/beego"
-	"github.com/lisijie/webcron/app/controllers"
-	"github.com/lisijie/webcron/app/jobs"
-	_ "github.com/lisijie/webcron/app/mail"
-	"github.com/lisijie/webcron/app/models"
 	"html/template"
 	"net/http"
+	"webcron/app/controllers"
+	"webcron/app/jobs"
+	_ "webcron/app/mail"
+	"webcron/app/models"
+
+	"github.com/astaxie/beego"
 )
 
 const VERSION = "1.0.0"

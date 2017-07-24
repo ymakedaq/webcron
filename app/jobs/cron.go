@@ -1,9 +1,11 @@
 package jobs
 
 import (
+	"fmt"
+	"sync"
+
 	"github.com/astaxie/beego"
 	"github.com/lisijie/cron"
-	"sync"
 )
 
 var (
@@ -27,6 +29,7 @@ func AddJob(spec string, job *Job) bool {
 	if GetEntryById(job.id) != nil {
 		return false
 	}
+	fmt.Println("----->", spec, *job)
 	err := mainCron.AddJob(spec, job)
 	if err != nil {
 		beego.Error("AddJob: ", err.Error())
